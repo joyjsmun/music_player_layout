@@ -1,4 +1,5 @@
 @import './reset.css';
+@import './variable.css';
 
 * {
     box-sizing: border-box;
@@ -6,7 +7,41 @@
 
   body{
       height:100vh;
+      
 
   }
 
+main{
+    display: flex;
+    
+}
+
+  .player{
+      width: 320px;
+      height: 650px;
+      background-color: var(--black);
+      margin-right: 30px;
+  }
   
+
+  .header{
+      display:flex;
+      align-items: center;
+      justify-content: space-around;
+  }
+
+  .header span{
+      margin: 20px 20px;
+      font-size: 15px;
+  }
+
+  .header span:nth-child(1),
+  .header span:nth-child(3){
+    width: 20px;
+    height: 20px;
+    background-color: gray;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
