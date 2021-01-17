@@ -1,4 +1,6 @@
 :root{
-    --black:#242425;
+    --black:#252525;
+    --white:#d0d0d0;
+    --gray:rgb(59, 57, 57);
     --horizontal-space:25px;
 }
