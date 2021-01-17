@@ -213,7 +213,7 @@
   }
 
 .middle-header.player2{
-    animation: 8s linear 1s infinite rotation;
+    animation: 10s linear 1s infinite rotation;
 }
 
 @keyframes rotation{
@@ -300,5 +300,9 @@
     display: flex;
     align-items: center;
       background-color: rgb(59, 57, 57);
+  }
+
+  .player__main.pause{
+      background-color: #E03716;
   }
 
